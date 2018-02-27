@@ -3,7 +3,7 @@
 # @Email:  rolind.roy@tatacommunications.com
 # @Filename: default.rb
 # @Last modified by:   rolindroy
-# @Last modified time: 2018-02-27T11:03:24+05:30
+# @Last modified time: 2018-02-27T11:11:44+05:30
 
 
 cookbook_file "/tmp/isocrats.com.tar" do
@@ -12,6 +12,6 @@ cookbook_file "/tmp/isocrats.com.tar" do
 end
 
 execute 'extract_some_tar' do
-  command 'tar xzvf /tmp/isocrats.com.tar'
+  command 'tar xvf /tmp/isocrats.com.tar'
   cwd '/var/www/html/'
 end
