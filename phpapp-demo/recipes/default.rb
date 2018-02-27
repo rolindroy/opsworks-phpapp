@@ -3,11 +3,9 @@
 # @Email:  rolind.roy@tatacommunications.com
 # @Filename: default.rb
 # @Last modified by:   rolindroy
-# @Last modified time: 2018-02-26T18:34:28+05:30
+# @Last modified time: 2018-02-27T10:20:33+05:30
 
 execute "update" do
 	command "yum update -y"
 	action :run
 end
-
-include_recipe "httpd"
