@@ -3,10 +3,10 @@
 # @Email:  rolind.roy@tatacommunications.com
 # @Filename: default.rb
 # @Last modified by:   rolindroy
-# @Last modified time: 2018-02-27T10:42:52+05:30
+# @Last modified time: 2018-02-27T11:02:41+05:30
 
 
-cookbook_file "/tmp/" do
+cookbook_file "/tmp/isocrats.com.zip" do
   source "isocrats.com.zip"
   mode "0644"
 end
